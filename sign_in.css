@@ -85,6 +85,7 @@ form{
     justify-content: space-evenly;
     align-items: center;
     transition: 0.3s;
+    backdrop-filter: blur(2px);
 }
 form:hover{
     box-shadow: 0vw 0vw 3vw rgb(0, 0, 0);
