@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:  "Bubblegum Sans", sans-serif;
+}
+
+body{
+    background-image: url(img/back_register.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+
+
+
+header{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+    height: 7vw;
+    padding: 0vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00000041;
+    border-bottom: 0.1vw solid rgb(85, 85, 85);
+}
+
+
+header div{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 1vw;
+    width: 5vw;
+    border-radius: 50%;
+    transition: 0.3s ;
+    filter: brightness(85%);
+    box-shadow: 0 0 0.5vw black;
+}
+.logo:hover{
+    box-shadow: 0 0 0.5vw rgb(13, 56, 0);
+    transition: 0.3s ;
+}
+nav a{
+    font-size: 1.5em;
+    margin: 0 2vw;
+    text-decoration: none;
+    transition: 0.2s;
+}
+nav a:hover{
+    color: rgb(247, 126, 28) ;
+    text-shadow: 0.1vw 0.1vw 0 rgb(83, 83, 83);
+    font-size: 1.7em;
+    transition: font-size 0.2s, color 0.2s;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+}
+
+
+.FormDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.FormDiv h1{
+    margin-bottom: 2vw;
+    font-size: 3em;
+    text-shadow: 0 0 1vw black;
+}
+form{
+    box-shadow: 0 0 2vw rgb(0, 0, 0);
+    border-radius: 2vw;
+    padding: 2vw 8vw 4vw 8vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.3s;
+}
+form:hover{
+    box-shadow: 0vw 0vw 3.5vw rgb(0, 0, 0);
+    transition: 0.3s;
+}
+form label{
+    font-size: 2em;
+}
+form input{
+    color: #000000;
+    font-size: 1.5em;
+    height: 2vw ;
+    width: 16vw;
+}
+form button{
+    margin-top: 2vw;
+    background-color: chocolate;
+    font-size: 2em;
+    height: 3vw;
+    width: 10vw;
+}
+#Gender{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Gender div{
+    display: flex;
+    align-items: center;
+}
+#Gender input{
+    width: 3vw;
+    margin-left: 1vw;
+}
+
+
+footer{
+    background-color: #00000041;
+    margin-top: 2vw;
+    position: relative;
+    display: flex;
+    text-align: center;
+    border-top: 0.1vw solid rgb(85, 85, 85);
+}
+footer p {
+    flex: 1;
+    margin: 4vw 0 4vw 0;
+    font-size: 1.5em;
+    color: rgb(114, 114, 114);
+}
