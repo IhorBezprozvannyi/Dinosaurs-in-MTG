@@ -32,6 +32,9 @@ header div{
     display: flex;
     align-items: center;
 }
+header div h1{
+    font-size: 2vw;
+}
 .logo{
     margin-right: 1vw;
     width: 5vw;
@@ -45,7 +48,7 @@ header div{
     transition: 0.3s ;
 }
 nav a{
-    font-size: 1.5em;
+    font-size: 1.5vw;
     margin: 0 2vw;
     text-decoration: none;
     transition: 0.2s;
@@ -53,7 +56,7 @@ nav a{
 nav a:hover{
     color: rgb(247, 126, 28) ;
     text-shadow: 0.1vw 0.1vw 0 rgb(83, 83, 83);
-    font-size: 1.7em;
+    font-size: 1.7vw;
     transition: font-size 0.2s, color 0.2s;
 }
 main{
@@ -86,7 +89,7 @@ main{
 }
 .EntranceTitleDiv{
     z-index: 1;
-    font-size: 1.3em;
+    font-size: 1.3vw;
     position: absolute;
     left: 2vw;
     top: 3vw;
@@ -97,13 +100,13 @@ main{
 }
 .EntranceTextDiv{
     z-index: 1;
-    font-size: 1.2em;
+    font-size: 1.2vw;
     position: absolute;
     bottom: 5vw;
     right: 1vw;  
 }
 .Magic{
-    font-size: 1.3em ;
+    font-size: 1.3vw ;
     color: rgb(180, 85, 7);
 }
 
@@ -128,7 +131,7 @@ main{
 }
 .CommandersGridDiv h2{
     text-shadow: 0 0 0.2vw black;
-    font-size: 2em;
+    font-size: 2vw;
 }
 .GridElementDiv{
     background-color: #0000002d;
@@ -137,7 +140,7 @@ main{
     align-items: center;
     justify-content: space-around;
     margin-top: 2vw;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     border-radius: 1vw;
     border: 0.1vw solid rgb(85, 85, 85);
     padding: 1vw;
@@ -174,7 +177,7 @@ footer{
 footer p {
     flex: 1;
     margin: 4vw 0 4vw 0;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     color: rgb(151, 151, 151);
     text-shadow: 0 0 1vw rgb(0, 0, 0);
 }

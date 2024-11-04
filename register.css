@@ -10,9 +10,8 @@ body{
     background-image: url(img/back_register.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover  ;
+    background-size: cover ;
 }
-
 
 
 header{
@@ -24,14 +23,16 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #00000041;
+    background-color: #00000044;
     border-bottom: 0.1vw solid rgb(85, 85, 85);
 }
-
 
 header div{
     display: flex;
     align-items: center;
+}
+header div h1{
+    font-size: 2vw;
 }
 .logo{
     margin-right: 1vw;
@@ -42,11 +43,11 @@ header div{
     box-shadow: 0 0 0.5vw black;
 }
 .logo:hover{
-    box-shadow: 0 0 0.5vw rgb(13, 56, 0);
+    box-shadow: 0 0 0.5vw rgb(71, 71, 71);
     transition: 0.3s ;
 }
 nav a{
-    font-size: 1.5em;
+    font-size: 1.5vw;
     margin: 0 2vw;
     text-decoration: none;
     transition: 0.2s;
@@ -54,7 +55,7 @@ nav a{
 nav a:hover{
     color: rgb(247, 126, 28) ;
     text-shadow: 0.1vw 0.1vw 0 rgb(83, 83, 83);
-    font-size: 1.7em;
+    font-size: 1.7vw;
     transition: font-size 0.2s, color 0.2s;
 }
 main{
@@ -124,6 +125,7 @@ form button{
 }
 
 
+
 footer{
     background-color: #00000041;
     margin-top: 2vw;
@@ -135,6 +137,7 @@ footer{
 footer p {
     flex: 1;
     margin: 4vw 0 4vw 0;
-    font-size: 1.5em;
-    color: rgb(114, 114, 114);
+    font-size: 1.5vw;
+    color: rgb(151, 151, 151);
+    text-shadow: 0 0 1vw rgb(0, 0, 0);
 }
