@@ -73,7 +73,7 @@ main{
 }
 .FormDiv h1{
     margin-bottom: 2vw;
-    font-size: 3em;
+    font-size: 3vw;
     text-shadow: 0 0 1vw black;
 }
 form{
@@ -94,20 +94,31 @@ form:hover{
     transition: 0.3s;
 }
 form label{
-    font-size: 2em;
+    font-size: 2vw;
 }
 form input{
-    color: #000000;
+    color: #ffffff;
     font-size: 1.5em;
     height: 2vw ;
     width: 16vw;
+    box-shadow: 0 0 1vw black;
+    border: none;
+    border-radius: 0.5vw;
+    background-color: #ffffff18;
+}
+form input:focus{
+    outline: none;
+    padding-left: 1vw;
 }
 form button{
     margin-top: 2vw;
     background-color: chocolate;
-    font-size: 2em;
+    font-size: 2vw;
     height: 3vw;
     width: 10vw;
+    border: none;
+    border-radius: 0.5vw;
+    box-shadow: 0 0 1vw black;  
 }
 #Gender{
     width: 100%;
