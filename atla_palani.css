@@ -75,8 +75,8 @@ main{
     justify-content: center;
 }
 .CommanderPreviewDiv img{
-    width: 12vw;
-    border-radius: 50%;
+    width: 20vw;
+    border-radius: 1vw;
     box-shadow: 0 0 1vw black;
     margin-right: 5vw;
 }

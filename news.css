@@ -7,11 +7,10 @@
 }
 
 body{
-    background-image: url(img/gishath_back.jpg);
+    background-image: url(img/sample2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover  ;
-    backdrop-filter: blur(1px);
 }
 
 
@@ -64,69 +63,19 @@ main{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 2vw;
-    flex-direction: column;
 }
 
-
-
-.CommanderPreviewDiv{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-.CommanderPreviewDiv img{
-    width: 20vw;
-    border-radius: 1vw;
-    box-shadow: 0 0 1vw black;
-    margin-right: 5vw;
-}
-.CommanderPreviewDiv h1{
-    font-size: 4vw;
-    text-shadow: 0 0 1vw black;
-}
-.DescriptionDiv{
-    padding: 3vw;
-    margin: 2vw 5vw;
-    border-radius: 3vw ;
+.NothingNewDiv{
+    padding: 5vw;
+    margin: 7.5vw;
+    border-radius: 2vw;
     box-shadow: 0 0 3vw black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #00000067;
-    transition: 0.1s;
+    backdrop-filter: blur(3px);
 }
-.DescriptionDiv:hover{
-    box-shadow: 0 0 3.5vw black;
-    transition: 0.1s;
-}
-.DescriptionDiv h1{
-    text-shadow: 0 0 1vw  rgb(167, 129, 7);
-    margin: 1vw;
-    font-size: 3vw ;
-}
-.DescriptionDiv h2{
+.NothingNewDiv h1{
+    font-size: 3vw;
     text-shadow: 0 0 1vw black;
-    color: rgb(236, 112, 11);
-    margin: 1vw;
-    font-size: 2vw;
 }
-.DescriptionDiv p{
-    font-size: 1.5vw;
-}
-.DescriptionDiv img{
-    width: 20vw;
-    margin: 0 2vw;
-    border-radius: 1vw;
-    box-shadow: 0 0 1.5vw rgb(160, 160, 160);
-    transition: 0.1s;
-}
-.DescriptionDiv img:hover{
-    transition: 0.1s;
-    box-shadow: 0 0 1.5vw rgb(255, 255, 255);
-}
-
-
 
 
 footer{
