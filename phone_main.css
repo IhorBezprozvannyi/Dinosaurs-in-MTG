@@ -1,0 +1,66 @@
+@media screen and (max-width: 600px) {
+    main{
+        flex-direction: column;
+        min-height: 900px;
+        justify-content: space-evenly;
+    }
+    header{
+        height: 10vw;
+    }
+    header div h1{
+        font-size: 4vw;
+    }
+    .logo{
+        width: 8vw;
+        margin-top: 2vw;
+    }
+    nav{
+        display: flex;
+    }
+    nav a{
+        font-size: 2.5vw;
+    }
+
+
+    .EntranceTitleDiv{
+        font-size: 2vw;
+    }
+    .EntranceTextDiv{
+        font-size: 1.7vw;
+    }
+    .Magic{
+        font-size: 2vw;
+    }
+    .EntranceDiv img{
+        width: 80vw ;
+    }
+
+
+    .CommandersDiv{
+        width: 80%;
+        height: 120vw;
+    }
+    .CommandersGridDiv{
+        row-gap: 5vw;
+        padding: 3vw;
+    }
+    .CommandersGridDiv h2{
+        font-size: 4vw;
+    }
+    .GridElementDiv{
+        justify-content: space-around;
+        font-size: 3.5vw;
+        border-radius: 3vw;
+        padding: 2vw;
+    }
+    .CommandersGridDiv img{
+        filter: brightness(90%);
+        width: 15vw;
+        border-radius: 50%;
+    }
+
+
+    footer p {
+        font-size: 2vw;
+    }
+}
