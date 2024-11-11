@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px){
+    main{
+        flex-direction: column;
+        min-height: 900px;
+        justify-content: space-evenly;
+    }
+    header{
+        height: 10vw;
+    }
+    header div h1{
+        font-size: 4vw;
+    }
+    .logo{
+        width: 8vw;
+        margin-top: 2vw;
+    }
+    nav{
+        display: flex;
+    }
+    nav a{
+        font-size: 3vw;
+    }
+
+
+    .CommanderPreviewDiv{
+        flex-direction: column;
+    }
+    .CommanderPreviewDiv img{
+        width: 40vw;
+        border-radius: 2vw ;
+        margin: 0;
+    }
+    .CommanderPreviewDiv h1{
+        font-size: 6vw;
+    }
+    .DescriptionDiv h1{ 
+        font-size: 5vw ;
+    }
+    .DescriptionDiv h2{
+        font-size: 3.5vw;
+    }
+    .DescriptionDiv p{
+        font-size: 2.5vw;
+        margin: 1vw 0vw;
+    }
+    .DescriptionDiv img{
+        width: 25vw;
+        margin: 1vw;
+    }
+
+
+    footer p {
+        font-size: 2vw;
+    }
+}

@@ -1,4 +1,7 @@
 @media screen and (max-width: 600px) {
+    body{
+        backdrop-filter: blur(1.5px);
+    }
     main{
         flex-direction: column;
         min-height: 900px;
@@ -18,7 +21,7 @@
         display: flex;
     }
     nav a{
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
 
@@ -26,10 +29,10 @@
         font-size: 2vw;
     }
     .EntranceTextDiv{
-        font-size: 1.7vw;
+        font-size: 2.5vw;
     }
     .Magic{
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     .EntranceDiv img{
         width: 80vw ;
@@ -37,6 +40,7 @@
 
 
     .CommandersDiv{
+        border-radius: 3vw;
         width: 80%;
         height: 120vw;
     }
