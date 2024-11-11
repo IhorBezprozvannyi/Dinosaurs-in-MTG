@@ -1,0 +1,41 @@
+@media screen and (max-width: 600px){
+    main{
+        flex-direction: column;
+        min-height: 900px;
+        justify-content: space-evenly;
+    }
+    header{
+        height: 10vw;
+    }
+    header div h1{
+        font-size: 4vw;
+    }
+    .logo{
+        width: 8vw;
+        margin-top: 2vw;
+    }
+    nav{
+        display: flex;
+    }
+    nav a{
+        font-size: 3vw;
+    }
+
+
+    .NothingNewDiv{
+        padding: 8vw 5vw;
+        margin: 7.5vw;
+        border-radius: 4vw;
+        box-shadow: 0 0 3vw black;
+        backdrop-filter: blur(3px);
+    }
+    .NothingNewDiv h1{
+        font-size: 7vw;
+        text-shadow: 0 0 1vw black;
+    }
+    
+
+    footer p {
+        font-size: 2vw;
+    }
+}

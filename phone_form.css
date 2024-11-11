@@ -1,0 +1,68 @@
+@media screen and (max-width: 600px){
+    body{
+        background-position: 70% 70%;
+    }
+    main{
+        flex-direction: column;
+        min-height: 900px;
+        justify-content: space-evenly;
+    }
+    header{
+        height: 10vw;
+    }
+    header div h1{
+        font-size: 4vw;
+    }
+    .logo{
+        width: 8vw;
+        margin-top: 2vw;
+    }
+    nav{
+        display: flex;
+    }
+    nav a{
+        font-size: 3vw;
+    }
+
+
+    .FormDiv h1{
+        font-size: 7vw;
+    }
+    form{
+        border-radius: 3vw;
+        padding: 4vw;
+        height: 100vw;
+        width: 70vw;
+        backdrop-filter: blur(2px);
+    }
+    form label{
+        font-size: 5vw;
+    }
+    form input{
+        color: #ffffff;
+        font-size: 2.5em;
+        height: 7vw ;
+        width: 46vw;
+        box-shadow: 0 0 1vw black;
+        border: none;
+        border-radius: 3vw;
+        background-color: #ffffff18;
+    }
+    form button{
+        font-size: 5vw;
+        height: 10vw;
+        width: 30vw;
+        border: none;
+        border-radius: 0.5vw;
+        box-shadow: 0 0 2vw black;
+    }
+    .register{
+        margin-top: 0.5vw;
+        font-size: 3vw;
+    }
+    
+
+    footer p {
+        font-size: 2vw;
+    }
+}
