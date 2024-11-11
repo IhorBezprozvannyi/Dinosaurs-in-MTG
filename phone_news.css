@@ -20,6 +20,10 @@
     nav a{
         font-size: 3vw;
     }
+    nav a:hover{
+        font-size: 3.5vw;
+
+    }
 
 
     .NothingNewDiv{
