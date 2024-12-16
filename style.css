@@ -78,17 +78,22 @@ main{
     display: flex;
     align-items: center;
 }
-.EntranceDiv img{
+.slide1, .slide2{
     border-radius: 2vw;
     box-shadow: 0vw 0vw 2vw rgb(0, 0, 0);
     filter: brightness(60%);
     width: 53vw;
+    height: 38vw;
     transition: 0.2s;
 }
-.EntranceDiv img:hover{
+.slide1{
+    position: absolute;
+}
+.slide1:hover{
     box-shadow: 0vw 0vw 3vw rgb(0, 0, 0);
     transition: 0.2s;
 }
+
 .EntranceTitleDiv{
     z-index: 1;
     font-size: 1.3vw;
