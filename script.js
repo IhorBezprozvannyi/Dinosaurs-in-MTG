@@ -1,6 +1,4 @@
 function galleryOn(){
-    console.log('zmiana');
-    
     $('.slide2').animate({
         opacity: 0,
       }, 2000, changeImage);
@@ -23,4 +21,23 @@ function changeImage(){
     console.log('change2')
     
     setTimeout('galleryOn()', 3000)
+}
+
+function changeManual(img){
+    if (img.id == 'img1'){
+        $('.slide1').attr('src', "img/sample1.jpg")
+        $('.slide2').attr('src', "img/sample1.jpg")
+    }
+    else if (img.id == 'img2'){
+        $('.slide1').attr('src', "img/sample2.jpg")
+        $('.slide2').attr('src', "img/sample2.jpg")
+    }
+    else if (img.id == 'img3'){
+        $('.slide1').attr('src', "img/sample3.jpg")
+        $('.slide2').attr('src', "img/sample3.jpg")
+    }
+    else{
+        $('.slide1').attr('src', "img/sample4.jpg")
+        $('.slide2').attr('src', "img/sample4.jpg")
+    }
 }
