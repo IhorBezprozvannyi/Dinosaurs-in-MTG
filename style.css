@@ -84,10 +84,12 @@ main{
     filter: brightness(60%);
     width: 53vw;
     height: 38vw;
-    transition: 0.2s;
 }
 .slide1{
     position: absolute;
+}
+.slide2{
+    z-index: 2;
 }
 .slide1:hover{
     box-shadow: 0vw 0vw 3vw rgb(0, 0, 0);
@@ -100,6 +102,7 @@ main{
     position: absolute;
     left: 2vw;
     top: 3vw;
+    z-index: 3;
 }
 .EntranceTitleDiv h1{
     color: rgb(255, 255, 255);
@@ -111,6 +114,7 @@ main{
     position: absolute;
     bottom: 5vw;
     right: 1vw;  
+    z-index: 3;
 }
 .Magic{
     font-size: 1.3vw ;
