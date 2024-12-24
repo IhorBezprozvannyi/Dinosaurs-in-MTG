@@ -19,25 +19,16 @@ function changeImage(){
     console.log(next)
     $('.slide1').attr('src', "img/" + images[next])
     console.log('change2')
-    
+
+    $("#img" + current).prop("checked", true);
+
     setTimeout('galleryOn()', 3000)
 }
 
 function changeManual(img){
-    if (img.id == 'img1'){
-        $('.slide1').attr('src', "img/sample1.jpg")
-        $('.slide2').attr('src', "img/sample1.jpg")
-    }
-    else if (img.id == 'img2'){
-        $('.slide1').attr('src', "img/sample2.jpg")
-        $('.slide2').attr('src', "img/sample2.jpg")
-    }
-    else if (img.id == 'img3'){
-        $('.slide1').attr('src', "img/sample3.jpg")
-        $('.slide2').attr('src', "img/sample3.jpg")
-    }
-    else{
-        $('.slide1').attr('src', "img/sample4.jpg")
-        $('.slide2').attr('src', "img/sample4.jpg")
-    }
+    let ID = img.id.replace("img", "")
+    current = ID % images.length
+    next = (ID + 1) % images.length
+    $('.slide1').attr('src', "img/" + images[current])
+    $('.slide2').attr('src', "img/" + images[current])
 }

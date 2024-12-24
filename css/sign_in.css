@@ -7,10 +7,10 @@
 }
 
 body{
-    background-image: url(img/back_register.jpg);
+    background-image: url(../img/back.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover  ;
 }
 
 
@@ -74,23 +74,22 @@ main{
 .FormDiv h1{
     margin-bottom: 2vw;
     font-size: 3vw;
-    text-shadow: 0 0 1vw black;
 }
 form{
     box-shadow: 0 0 2vw rgb(0, 0, 0);
     border-radius: 2vw;
-    padding: 2vw 8vw 4vw 8vw;
+    padding: 4vw;
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 50vw;
+    height: 29vw;
     justify-content: space-evenly;
     align-items: center;
     transition: 0.3s;
     backdrop-filter: blur(2px);
 }
 form:hover{
-    box-shadow: 0vw 0vw 3.5vw rgb(0, 0, 0);
+    box-shadow: 0vw 0vw 3vw rgb(0, 0, 0);
     transition: 0.3s;
 }
 form label{
@@ -118,24 +117,12 @@ form button{
     width: 10vw;
     border: none;
     border-radius: 0.5vw;
-    box-shadow: 0 0 1vw black;  
+    box-shadow: 0 0 2vw black;
 }
-#Gender{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.register{
+    margin-top: 0.5vw;
+    font-size: 1vw;
 }
-#Gender div{
-    display: flex;
-    align-items: center;
-}
-#Gender input{
-    width: 3vw;
-    margin-left: 1vw;
-}
-
-
 
 footer{
     background-color: #00000041;
