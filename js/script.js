@@ -28,7 +28,9 @@ function changeImage(){
 function changeManual(img){
     let ID = img.id.replace("img", "")
     current = ID % images.length
-    next = (ID + 1) % images.length
-    $('.slide1').attr('src', "img/" + images[current])
+    next = (current + 1) % images.length
+    $('.slide1').attr('src', "img/" + images[next])
+    console.log(images[current])
+    console.log(images[next])
     $('.slide2').attr('src', "img/" + images[current])
 }
